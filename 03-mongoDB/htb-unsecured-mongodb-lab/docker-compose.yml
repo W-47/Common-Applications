@@ -1,0 +1,13 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:4.4
+    container_name: unsecured_mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./mongodb-init:/docker-entrypoint-initdb.d
+    environment:
+      MONGO_INITDB_DATABASE: htb_lab
