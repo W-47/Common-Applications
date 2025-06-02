@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  clean-ftp:
+    build: ./clean-ftp
+    container_name: clean-ftp
+    ports:
+      - "21:21"
+      - "30000-30010:30000-30010"
+    restart: unless-stopped

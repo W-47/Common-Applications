@@ -6,7 +6,9 @@ Welcome to the Attacking Common Applications lab repo — a hands-on educational
 📂 Modules
 Module Description
 01-smb Null sessions, anonymous shares, and misconfigs in SMB
+
 02-ftp Anonymous login, file upload abuse, and credential sniffing
+
 03-telnet Insecure authentication and remote command execution over Telnet
 
 🧪 Getting Started
@@ -23,7 +25,7 @@ cd Common-Applications
 
 ```
 cd 01-smb
-docker-compose up -d
+docker-compose up --build -d
 ```
 
 Refer to the README.md inside each module folder for instructions.
