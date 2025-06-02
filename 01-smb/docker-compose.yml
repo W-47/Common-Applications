@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  smb-server:
+    build: .
+    container_name: smb-server
+    restart: unless-stopped
+    ports:
+      - "139:139"
+      - "445:445"
