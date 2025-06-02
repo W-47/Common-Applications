@@ -5,11 +5,12 @@ Welcome to the Attacking Common Applications lab repo — a hands-on educational
 
 📂 Modules
 Module Description
+
 01-smb Null sessions, anonymous shares, and misconfigs in SMB
 
 02-ftp Anonymous login, file upload abuse, and credential sniffing
 
-03-telnet Insecure authentication and remote command execution over Telnet
+03-mongoDB, unsecure mongodb
 
 🧪 Getting Started
 
@@ -35,11 +36,11 @@ Docker & Docker Compose
 
 `Kali Linux`, `Parrot OS`, or any attack VM
 
-Tools: `nmap`, `smbclient`, `ftp`, `telnet`, `nxc`, `enum4linux`, `smbmap`, etc.
+Tools: `nmap`, `smbclient`, `ftp`, `telnet`, `nxc`, `enum4linux`, `smbmap`, `mongosh` etc.
 
 🎯 What You'll Learn
 How to enumerate and exploit SMB shares
 
-Common FTP misconfigurations like anonymous upload
+Common FTP misconfigurations like anonymous uploads.
 
-Telnet exploitation using weak logins or exposed shells
+Emumerating unsecure mongoDB
